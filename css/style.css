@@ -85,6 +85,7 @@ h2 {
 
 #services {
     background-color: #FAFAFA;
+    flex-direction: column;
 }
 
 #services h2 {
@@ -119,12 +120,15 @@ h2 {
 #quotes {
     background-color: #000;
     color: white;
-    max-width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 0 0 0;
+    padding: 5em 0 5em 0;
+    text-align: center; 
 }
 
 #quotes article {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
 }
 
 #contactme {
@@ -144,11 +148,9 @@ h2 {
 }
 
 footer {
+    text-align: center;
     background-color: #000;
     color: white;
-    display: flex;
-}
-
-footer p {
-   display: block;
+    margin: 0 0 0 0;
+    padding: 10px 0 10px 0;
 }
