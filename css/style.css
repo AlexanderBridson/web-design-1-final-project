@@ -10,7 +10,9 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 1em;
     margin: 0;
+    color: #000;
 }
 
 header{
@@ -23,7 +25,7 @@ header{
 
 header span {
     color: white;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
 nav ul {
@@ -35,6 +37,7 @@ nav ul {
 nav ul li {
     display: inline-block;
     padding: 0.5em 2em;
+    font-size: 1em;
 }
 
 .herobanner {
@@ -58,7 +61,19 @@ a.button:focus {
     color: white;
 }
 
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
 .wrapper {
     max-width: 1280px;
     margin: 0 auto;
 }
+
+
+
+
