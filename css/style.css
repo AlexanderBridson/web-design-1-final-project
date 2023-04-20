@@ -11,7 +11,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
-    margin: 0;
+    margin: 0 auto;
     color: #000;
 }
 
@@ -20,7 +20,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10em 0 10em;
+    padding: 0 5em 0 5em;
 }
 
 header span {
@@ -36,7 +36,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    padding: 0.5em 2em;
+    padding: 0.5em 1.5em;
     font-size: 1em;
 }
 
@@ -48,7 +48,7 @@ a.button {
     text-decoration: none;
     color: white;
 }
-a.button:hover{
+a.button:hover {
     text-decoration: none;
     color: white;
 }
@@ -72,13 +72,39 @@ h2 {
 .wrapper {
     max-width: 1280px;
     margin: 0 auto;
+    padding: 0 2em 0 2em;
 }
 
 #aboutme {
     display: flex;
     align-items: center;
 }
-
 #aboutme img {
     max-height: 700px;
 }
+
+#services h2 {
+    text-align: center;
+    padding: 
+}
+
+#services article {
+    background-color: #FAFAFA;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2rem;
+    display: inline-block;
+}
+
+#mywork {
+    text-align: center;
+}
+#mywork
+
+.line1 {
+    display: flex;
+}
+.line2 {
+    display: flex;
+}
+
