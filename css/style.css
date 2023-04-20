@@ -10,7 +10,7 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 1em;
+    font-size: 1.2em;
     margin: 0;
     color: #000;
 }
@@ -74,6 +74,11 @@ h2 {
     margin: 0 auto;
 }
 
+#aboutme {
+    display: flex;
+    align-items: center;
+}
 
-
-
+#aboutme img {
+    max-height: 700px;
+}
