@@ -83,13 +83,16 @@ h2 {
     max-height: 700px;
 }
 
+#services {
+    background-color: #FAFAFA;
+}
+
 #services h2 {
     text-align: center;
-    padding: 
+    padding-top: 3em;
 }
 
 #services article {
-    background-color: #FAFAFA;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 2rem;
@@ -98,13 +101,29 @@ h2 {
 
 #mywork {
     text-align: center;
+    padding: 0
 }
-#mywork
 
-.line1 {
+#mywork h2 {
+    padding: 2em 0 0 0;
+}
+
+#mywork p {
+    padding: 0 12em 2em 12em
+}
+
+.line1, .line2 {
     display: flex;
 }
-.line2 {
-    display: flex;
+
+#quotes {
+    background-color: #000;
+    color: white;
 }
+#quotes article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
 
