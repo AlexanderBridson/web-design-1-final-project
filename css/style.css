@@ -92,7 +92,8 @@ h2 {
 #services {
     background-color: #FAFAFA;
     box-sizing: border-box;
-    padding: 3em 0 8em 0;
+    margin: 0 auto;
+    padding: 3em 0 11em 0;
 }
 #services h2 {
     text-align: center;
@@ -110,21 +111,21 @@ h2 {
 .logo-box {
     box-sizing: border-box;
     margin: .5em;
-    padding: 1em;
+    padding: 1.2em;
     border-radius: 0.125rem;
     background-color: #ffffff;
 }
 .web-box {
     box-sizing: border-box;
     margin: .5em;
-    padding: 1em;
+    padding: 1.2em;
     border-radius: 0.125rem;
     background-color: #ffffff;
 }
 .brand-box {
     box-sizing: border-box;
     margin: .5em;
-    padding: 1em;
+    padding: 1.2em;
     border-radius: 0.125rem;
     background-color: #ffffff;
 }
@@ -136,6 +137,7 @@ h2 {
     padding: .5em 1em .5em 1em;
     border-radius: .5em;
 }
+
 a.button2 {
     text-decoration: none;
     color: #ffffff;
@@ -177,7 +179,6 @@ a.button2:focus {
     text-align: center;
     padding: 0;
 }
-
 .quote-box {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -203,6 +204,7 @@ a.button2:focus {
     padding: .5em .5em .5em 1em;
 }
 
+
 #contactme {
     text-align: center;
     padding: 3em 13em 0 13em;
@@ -216,6 +218,7 @@ a.button2:focus {
     align-items: center;
     padding: 1em 0 7em 0;
 }
+
 
 footer {
     text-align: center;
