@@ -8,12 +8,14 @@ html {
     box-sizing: border-box;
 }
 
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 1.2em;
     margin: 0 auto;
     color: #000;
 }
+
 
 header{
     background-color: #000;
@@ -22,44 +24,46 @@ header{
     align-items: center;
     padding: 0 5em 0 5em;
 }
-
 header span {
-    color: white;
+    color: #ffffff;
     font-size: 2em;
 }
+
 
 nav ul {
     list-style: none;
     padding: 0;
     text-align: end;
 }
-
 nav ul li {
     display: inline-block;
     padding: 0.5em 1.5em;
     font-size: 1em;
 }
 
+
 .herobanner {
     width: 100%;
 }
 
+
 a.button {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
 a.button:hover {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
 a.button:visited {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
 a.button:focus {
     text-decoration: none;
-    color: white;
+    color: #ffffff;
 }
+
 
 h1 {
     font-size: 2em;
@@ -69,11 +73,13 @@ h2 {
     font-size: 1.5em;
 }
 
+
 .wrapper {
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 2em 0 2em;
 }
+
 
 #aboutme {
     display: flex;
@@ -83,63 +89,116 @@ h2 {
     max-height: 700px;
 }
 
+
 #services {
     background-color: #FAFAFA;
-    flex-direction: column;
+    box-sizing: border-box;
+    padding: 3em 0 8em 0;
 }
 
 #services h2 {
     text-align: center;
-    padding-top: 3em;
+    padding: 0;
+}
+#services h3 {
+    margin-top: 0;
 }
 
-#services article {
+.service-box {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 2rem;
-    display: inline-block;
+    height: 15em;
+    padding: 1em 2em 0 2em;
 }
+
+.logo-box {
+    box-sizing: border-box;
+    margin: .5em;
+    padding: 1em;
+    border-radius: 0.125rem;
+    background-color: #ffffff;
+}
+.web-box {
+    box-sizing: border-box;
+    margin: .5em;
+    padding: 1em;
+    border-radius: 0.125rem;
+    background-color: #ffffff;
+}
+.brand-box {
+    box-sizing: border-box;
+    margin: .5em;
+    padding: 1em;
+    border-radius: 0.125rem;
+    background-color: #ffffff;
+}
+
+#services a {
+    box-sizing: border-box;
+    background-color: #000;
+    color: #ffffff;
+    font-size: small;
+    padding: .5em 1em .5em 1em;
+    border-radius: .5em;
+}
+
+a.button2 {
+    text-decoration: none;
+    color: #ffffff;
+}
+a.button2:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+a.button2:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+a.button2:focus {
+    text-decoration: none;
+    color: #ffffff;
+}
+    
 
 #mywork {
     text-align: center;
-    padding: 0
+    padding: 4em 0 6em 0;
 }
-
-#mywork h2 {
-    padding: 2em 0 0 0;
-}
-
 #mywork p {
     padding: 0 12em 2em 12em
 }
-
 .line1, .line2 {
     display: flex;
 }
 
+
 #quotes {
     background-color: #000;
-    color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 0 0 0 0;
-    padding: 5em 0 5em 0;
-    text-align: center; 
+    color: #ffffff;
+    padding: 4em 0 4em 0;
+    max-height: 500px;
 }
-
-#quotes article {
-    flex-direction: column;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    grid-gap: 20px;
+    justify-items: flex;
+    align-items: start;
+}
+.grid article:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: -1;
+    grid-column: 1/-1;
 }
 
 #contactme {
     text-align: center;
     padding: 3em 13em 0 13em;
 }
-
 #contactme p {
     padding: 0 5em 0 5em;
 }
-
 #contactme img {
     flex-wrap: wrap;
     max-width: 30px;
